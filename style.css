@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Exo|Abel');
+
+body {
+  background-image: url("http://wallpaper-planet.com/doc/wallpaper/img/l/snowy_mountains_and_clouds-1468170671.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #E4EFF0;
+  margin-top: 5px;
+}
+.side-list {
+    display: inline;
+    float:left;
+}
+.nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  font-family:"Abel";
+ }
+.nav-li {
+  float: left;
+  list-style-type: none;
+  display:inline-block;
+}
+.social li {
+  color:#E4EFF0;
+}
+.navbar {
+  color: white;
+  text-decoration: none;
+  position:fixed;
+  top: 0;
+  width: 100%;
+  overflow:hidden;
+}
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: transparent;
+  font-size: 20;
+  color:#358F97;
+  text-decoration: none;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+}
+.fa-facebook {
+	background:#3b5998
+}
+.fa-linkedin {
+	background:#007bb6
+}
+.fa-twitter {
+	background:#00aced
+}
+.google-plus {
+	background:#dd4b39
+}
+.fa-github {
+	background:#333
+}
+ul li a i {
+	color: #fff;
+	width: 50px;
+	height: 50px;
+	border-radius: 60px;
+	font-size: 50px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 15%;
+}
+ul li a i:hover {
+  color: #fff;
+	width: 55px;
+	height: 55px;
+	border-radius: 55px;
+	font-size: 40px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 10%;
+  opacity: .7;
+  -o-transition:.7s;
+  -ms-transition:.7s;
+  -moz-transition:.7s;
+  -webkit-transition:.7s;
+}
+.social {
+  color:#145A61;
+  display:inline-block;
+  padding:0px;
+  text-align:center;
+}
+.center {
+  text-align:center;
+}
+.right {
+  text-align:right;
+}
+.title-font {
+  font-size:50px;
+  text-align:center;
+  margin-left:10px;
+  margin-top:2px;
+  font-family:"Abel";
+}
+.summary {
+  font-size:20px;
+  font-family:"Abel";
+}
+.regular {
+  font-size:18px;
+  text-align:left;
+
+  font-family:"Abel";
+}
+.sub-title {
+  font-size:25px;
+  text-align:center;
+  color:#FCFBE3;
+}
+.main-div {
+  background-color:#FCFBE3;
+  color:black;
+  margin:auto;
+  margin-top:1px;
+  border:1px solid gray;
+  border-radius:8px;
+}
+.size {
+  width:50%;
+  height:50%;
+  overflow:auto;
+  margin-left:10px;
+}
+.size-2 {
+  width:100px;
+  height:100px;
+  overflow:hidden;
+}
+.skills {
+  display:block;
+}
+.same-font {
+  font-family:"Abel"
+}
+.project-summary {
+  font-size:18px;
+}
+.contact-form {
+  margin-top:4px;
+}
+.contact-head {
+  font-family:"Abel";
+  color:#FCFBE3;
+}
+
+
+input[type="text"],input[type=email]
+{
+  margin-top:5px;
+    background-color:#FCFBE3;
+    border: 2px solid #FCFBE3;;
+    border-radius: 4px;
+    color: #358F97;
+    font-family:"Abel";
+}
+input[type="submit"]{
+  background-color:#FCFBE3;
+  font-family:"Abel";
+  color:#358F97;
+  cursor:pointer;
+  border: 2px solid #FCFBE3;
+  border-radius:5px;
+}
+input[type="submit"]:hover{
+  background-color:#358F97;
+  border: 2px solid #358F97;
+  border-radius:5px;
+  color:#FCFBE3;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+}
+textarea[type="message"] {
+  margin-top:5px;
+  background-color:#FCFBE3;
+  border: 2px solid #FCFBE3;;
+  border-radius: 4px;
+  color: #358F97;
+  font-family:"Abel";
+}
+::-webkit-input-placeholder { /* Chrome */
+  color: #358F97;
+}
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #358F97;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #358F97;
+  opacity: 1;
+}
+/* The animation code */
+@keyframes title-animation {
+    from {color: transparent;}
+    to {color: #FCFBE3;}
+}
+
+@keyframes title-animation-2 {
+    from {color: transparent;}
+    to {color: #FCFBE3;}
+}
+#hey {
+  animation-name: title-animation;
+  animation-duration: 4s;
+  color: #FCFBE3;
+}
+
+#engineer {
+  animation-name: title-animation-2;
+  animation-duration: 6s;
+}
+
+.width-contact {
+  width:300px;
+}
+
+.footer {
+  background:#FCFBE3;
+  align:center;
+  width:50%;
+  color:#358F97;
+  margin-top:10px;
+  border:2px solid #358F97;
+  border-radius:10px;
+  padding:5px;
+  font-size:20px;
+}
+
+.link-modify {
+  text-decoration:none;
+  color:#358F97;
+}
+
+.link-modify:hover {
+  text-decoration:none;
+  font-size:25px;
+  color:#358F97;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+}
+.project:hover {
+  box-shadow: 3px 3px grey;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+}
+.sub {
+  font-size:13px;
+}
