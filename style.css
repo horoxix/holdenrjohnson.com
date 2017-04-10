@@ -157,7 +157,21 @@ ul li a i:hover {
   font-size:18px;
 }
 .contact-form {
-  margin-top:4px;
+  margin-top:5px;
+  font-family:"Abel";
+  font-size:20px;
+}
+.contact-btn {
+  font-size:25px;
+  font-family:"Abel";
+  color:#358F97;
+}
+.contact-btn a:hover {
+  font-size:25px;
+  font-family:"Abel";
+  text-decoration:none;
+
+
 }
 .contact-head {
   font-family:"Abel";
