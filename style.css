@@ -81,13 +81,6 @@ ul li a i {
 }
 ul li a i:hover {
   color: #fff;
-	width: 55px;
-	height: 55px;
-	border-radius: 55px;
-	font-size: 40px;
-	text-align: center;
-	margin-right: 10px;
-	padding-top: 10%;
   opacity: .7;
   -o-transition:.7s;
   -ms-transition:.7s;
@@ -270,13 +263,13 @@ textarea[type="message"] {
 
 .link-modify:hover {
   text-decoration:none;
-  font-size:25px;
-  color:#358F97;
+  font-size:21px;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
 }
+
 .project:hover {
   box-shadow: 3px 3px grey;
   -o-transition:.5s;
@@ -286,4 +279,10 @@ textarea[type="message"] {
 }
 .sub {
   font-size:13px;
+}
+
+.imagesize {
+  width:400px;
+  height:300px;
+  overflow:hidden;
 }
