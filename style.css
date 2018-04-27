@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Abel');
 
 body {
-  background-image: url("https://cdn-images-1.medium.com/max/1920/1*AcYLHh0_ve4TNRi6HLFcPA.jpeg");
+  background-image: url("background.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -25,7 +25,7 @@ body {
   display:inline-block;
 }
 .social li {
-  color:#E4EFF0;
+  color:white;
 }
 .navbar {
   color: white;
@@ -38,7 +38,7 @@ body {
 .navbar a {
   float: right;
   display: block;
-  color: #f2f2f2;
+  color: white;
   text-align: right;
   padding: 14px 16px;
   text-decoration: none;
@@ -119,10 +119,10 @@ ul li a i:hover {
 .sub-title {
   font-size:25px;
   text-align:center;
-  color:#FCFBE3;
+  color:white;
 }
 .main-div {
-  background-color:#FCFBE3;
+  background-color:white;
   color:black;
   margin:auto;
   margin-top:1px;
@@ -130,8 +130,8 @@ ul li a i:hover {
   border-radius:8px;
 }
 .size {
-  width:50%;
-  height:50%;
+  width:35%;
+  height:35%;
   overflow:auto;
   margin-left:10px;
 }
@@ -168,7 +168,7 @@ ul li a i:hover {
 }
 .contact-head {
   font-family:"Abel";
-  color:#FCFBE3;
+  color:white;
 }
 
 
@@ -222,17 +222,17 @@ textarea[type="message"] {
 /* The animation code */
 @keyframes title-animation {
     from {color: transparent;}
-    to {color: #FCFBE3;}
+    to {color: white;}
 }
 
 @keyframes title-animation-2 {
     from {color: transparent;}
-    to {color: #FCFBE3;}
+    to {color: white;}
 }
 #hey {
   animation-name: title-animation;
   animation-duration: 4s;
-  color: #FCFBE3;
+  color: white;
 }
 
 #engineer {
@@ -245,7 +245,7 @@ textarea[type="message"] {
 }
 
 .footer {
-  background:#FCFBE3;
+  background:white;
   align:center;
   width:50%;
   color:#358F97;
@@ -263,7 +263,7 @@ textarea[type="message"] {
 
 .link-modify:hover {
   text-decoration:none;
-  font-size:21px;
+  font-size:19px;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
