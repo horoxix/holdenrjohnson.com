@@ -1,13 +1,43 @@
-@import url('https://fonts.googleapis.com/css?family=Exo|Abel');
+@import url('https://fonts.googleapis.com/css?family=Exo|Abel|Jura');
 
 body {
-  background-image: url("background.jpeg");
+  background-image: url("images/redheir.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-color: #E4EFF0;
   margin-top: 5px;
 }
+.topnav {
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+
+.topnav a {
+  
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display:inline-block;
+  font-family:"Jura";
+}
+
+.topnav a:hover {
+  color: black;
+  text-decoration:none;
+}
+
+.topnav a.active {
+  color: black;
+}
+.topnav li{
+  display:inline;
+}
+
 .side-list {
     display: inline;
     float:left;
@@ -104,17 +134,17 @@ ul li a i:hover {
   text-align:center;
   margin-left:10px;
   margin-top:2px;
-  font-family:"Abel";
+  font-family:"Jura";
 }
 .summary {
   font-size:20px;
-  font-family:"Abel";
+  font-family:"Jura";
 }
 .regular {
   font-size:18px;
   text-align:left;
 
-  font-family:"Abel";
+  font-family:"Jura";
 }
 .sub-title {
   font-size:25px;
@@ -132,42 +162,56 @@ ul li a i:hover {
 .size {
   width:35%;
   height:35%;
-  overflow:auto;
+  overflow:hidden;
   margin-left:10px;
 }
-.size-2 {
-  width:100px;
-  height:100px;
+.size-3 {
+  width:15%;
+  height:15%;
   overflow:hidden;
+  margin-right: 10px;
+  }
+.size-2 {
+  width:250px;
+  height:250px;
+  overflow:hidden;
+  margin-right: 10px;
 }
 .skills {
   display:block;
 }
 .same-font {
-  font-family:"Abel"
+  font-family:"Jura"
+}
+h1.same-font {
+  font-size:35px;
+  text-decoration: underline;
+}
+h2.same-font {
+  font-size:25px;
 }
 .project-summary {
   font-size:18px;
 }
 .contact-form {
   margin-top:5px;
-  font-family:"Abel";
+  font-family:"Jura";
   font-size:20px;
 }
 .contact-btn {
   font-size:25px;
-  font-family:"Abel";
+  font-family:"Jura";
   color:#358F97;
 }
 .contact-btn a:hover {
   font-size:25px;
-  font-family:"Abel";
+  font-family:"Jura";
   text-decoration:none;
 
 
 }
 .contact-head {
-  font-family:"Abel";
+  font-family:"Jura";
   color:white;
 }
 
@@ -183,7 +227,7 @@ input[type="text"],input[type=email]
 }
 input[type="submit"]{
   background-color:#FCFBE3;
-  font-family:"Abel";
+  font-family:"Jura";
   color:#358F97;
   cursor:pointer;
   border: 2px solid #FCFBE3;
@@ -247,13 +291,13 @@ textarea[type="message"] {
 .footer {
   background:white;
   align:center;
-  width:50%;
+  width:40%;
   color:#358F97;
   margin-top:10px;
   border:2px solid #358F97;
   border-radius:10px;
-  padding:5px;
-  font-size:20px;
+  padding:1px;
+  font-size:15px;
 }
 
 .link-modify {
