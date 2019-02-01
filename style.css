@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Abel|Jura');
 
 body {
-  background-image: url("images/background.jpg");
+  background: linear-gradient(10deg,  #2d383e, #627b8b);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -17,7 +17,7 @@ body {
 
 .topnav a {
   
-  color: #f2f2f2;
+  color: #e5aa94;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -27,7 +27,7 @@ body {
 }
 
 .topnav a:hover {
-  color: black;
+  color: #f5ede4;
   text-decoration:none;
 }
 
@@ -77,7 +77,7 @@ body {
 .navbar a:hover {
   background-color: transparent;
   font-size: 20;
-  color:#358F97;
+  color:#f5ede4;
   text-decoration: none;
   -o-transition:.5s;
   -ms-transition:.5s;
@@ -135,15 +135,16 @@ ul li a i:hover {
   margin-left:10px;
   margin-top:2px;
   font-family:"Jura";
+  color:#b87333;
 }
 .summary {
   font-size:20px;
   font-family:"Jura";
+  color: #e5dccb;
 }
 .regular {
   font-size:18px;
   text-align:left;
-
   font-family:"Jura";
 }
 .sub-title {
@@ -152,18 +153,18 @@ ul li a i:hover {
   color:white;
 }
 .main-div {
-  background-color:white;
-  color:black;
+  background-color:transparent;
+  color:#f5ede4;
   margin:auto;
   margin-top:1px;
-  border:1px solid gray;
-  border-radius:8px;
 }
 .size {
-  width:35%;
-  height:35%;
+  width:100px;
+  height:100px;
   overflow:hidden;
-  margin-left:10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .size-3 {
   width:70%;
@@ -181,11 +182,12 @@ ul li a i:hover {
   display:block;
 }
 .same-font {
-  font-family:"Jura"
+  font-family:"Jura";
+  color:#e5aa94;
 }
 h1.same-font {
   font-size:35px;
-  text-decoration: underline;
+  color: #e5aa94;
 }
 h2.same-font {
   font-size:25px;
@@ -196,25 +198,25 @@ h2.same-font {
 .contact-form {
   margin-top:5px;
   font-family:"Jura";
+  color:#e5dccb;
   font-size:20px;
 }
 .contact-btn {
   font-size:25px;
   font-family:"Jura";
-  color:#358F97;
+  color:#e5aa94;
 }
-.contact-btn a:hover {
+.contact-btn:hover {
   font-size:25px;
   font-family:"Jura";
+  color:#e5dccb;
   text-decoration:none;
-
-
 }
+
 .contact-head {
   font-family:"Jura";
   color:white;
 }
-
 
 input[type="text"],input[type=email]
 {
@@ -237,7 +239,7 @@ input[type="submit"]:hover{
   background-color:#358F97;
   border: 2px solid #358F97;
   border-radius:5px;
-  color:#FCFBE3;
+  color:#f5ede4;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -266,22 +268,23 @@ textarea[type="message"] {
 /* The animation code */
 @keyframes title-animation {
     from {color: transparent;}
-    to {color: white;}
+    to {color: #e5aa94;}
 }
 
 @keyframes title-animation-2 {
     from {color: transparent;}
-    to {color: white;}
+    to {color: #e5dccb;}
 }
 #hey {
   animation-name: title-animation;
   animation-duration: 4s;
-  color: white;
+  color: #e5aa94;
 }
 
 #engineer {
   animation-name: title-animation-2;
   animation-duration: 6s;
+  color: #e5dccb;
 }
 
 .width-contact {
@@ -289,25 +292,24 @@ textarea[type="message"] {
 }
 
 .footer {
-  background:white;
+  background:transparent;
   align:center;
   width:40%;
-  color:#358F97;
+  color:#e5aa94;
   margin-top:10px;
-  border:2px solid #358F97;
-  border-radius:10px;
   padding:1px;
   font-size:15px;
 }
 
 .link-modify {
   text-decoration:none;
-  color:#358F97;
+  color:#e5aa94;
 }
 
 .link-modify:hover {
   text-decoration:none;
-  font-size:19px;
+  color:#e5dccb;
+  font-size:21px;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -329,4 +331,13 @@ textarea[type="message"] {
   width:400px;
   height:300px;
   overflow:hidden;
+}
+
+.a-link {
+  color: #e5aa94;
+}
+
+.a-link:hover {
+  color:#e5dccb;
+  text-decoration: none;
 }
